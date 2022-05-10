@@ -1,1 +1,437 @@
-{}
+{
+    "Which of these is a valid reason for compressing data.": {
+        "options": [
+            "Reduced transmission times",
+            "Limited RAM",
+            "Reduced amount of processing power",
+            "Higher quality files"
+        ],
+        "feedback": "Compression is used to reduce the storage space required by a file, meaning you can store more files with the same amount of storage space. Compression is particularly important for sharing files over networks or the Internet. The larger a file, the longer it takes to transfer and so compressing files increases the number of files that can be transferred in a given time.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "When is lossy compression used?": {
+        "options": [
+            "To generate a similar copy of the original file",
+            "When all the information is needed",
+            "To fully generate the original file",
+            "To download work documents from a website"
+        ],
+        "feedback": "lossy compression reduces the size of a file while also removing some of its information such that there is minimal difference between the old and original. This can be applied to photos, video, or audio files. \\n Important files such as word documents require lossless compression where all the original data needs to be recoverable",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Encryption...": {
+        "options": [
+            "Uses at least one key to cipher data",
+            "Is only used on text",
+            "Is impossible to break",
+            "Makes data less secure"
+        ],
+        "feedback": "Encryption is used to keep data secure when it is being transmitted. There are a variety of different methods which can be used to scramble data before it is transmitted and then decipher it once it arrives at its destination.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Symmetrical encryption techniques...": {
+        "options": [
+            "Use a single key to encode/decode data",
+            "Are the most secure types of encryption",
+            "Include multiple keys to encode/decode data",
+            "Used by a majority of large digital media distribution companies such as Youtube"
+        ],
+        "feedback": "In symmetric encryption, both the sender and receiver share the same private key, which they distribute to each other in a process called a key exchange. This key is used for both encrypting and decrypting data.  \\n \\n It\u00e2\u20ac\u2122s important that the private key is kept secret. If the key is intercepted during the key exchange then any communications sent can be intercepted and decrypted using the key. Asymmetric encryption gets around this issue.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Asymmetrical encryption techniques...": {
+        "options": [
+            "Use multiple keys to encode/decode data",
+            "Use a single key to encode/decode data",
+            "Are the least secure type of encryption",
+            "More vulnerabilities associated with this encryption method compared to Symmetrical encryption"
+        ],
+        "feedback": "",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Which of these is FALSE about Run-length encoding": {
+        "options": [
+            "Is lossy",
+            "Is lossless",
+            "Records the number of repeats of an individual element",
+            "Can be used for a wide variety of file types"
+        ],
+        "feedback": "Run length encoding is a method of lossless compression in which repeated values are removed and replaced with one occurrence of the data followed by the number of times it should be repeated.  \\n \\n For example, the string BBBBCCCDDDDDD could be represented as B4C3D6 \\n \\n In order to work well, run length encoding relies on adjacent pieces of data being the same - if there is little repetition, run length encoding doesn't offer a great reduction in file size. ",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Which of these is TRUE about dictionary encoding": {
+        "options": [
+            "A dictionary is sent along with the data during transmission",
+            "Creates a dictionary of smaller letters so less space is used",
+            "Doesn't send the dictionary with the data",
+            "Is a lossy compression format"
+        ],
+        "feedback": "Dictionary encoding is another example of lossless compression. Frequently occurring pieces of data are replaced with an index and the compressed data is stored alongside a dictionary which matches the frequently occurring data to an index. The original data can then be restored using the dictionary. \\n \\n It's important to remember that data compressed using dictionary compression must be transferred alongside its dictionary. Without a dictionary, the data cannot be decompressed.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "A database is...": {
+        "options": [
+            "A structured system for holding records",
+            "A spreadsheet of information",
+            "not reliant on good design, as poor structure does not cause any problems",
+            "simple and easy to create"
+        ],
+        "feedback": "",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What is True about the operating system": {
+        "options": [],
+        "feedback": "",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Which of these entity relationships is not valid": {
+        "options": [
+            "Single-Multiple",
+            "One-to-Many",
+            "One-to-One",
+            "Many-to-One"
+        ],
+        "feedback": "The possible entity relationships are: \\n - One-to-One \\n - Many-to-Many \\n - Many-to-One \\n - One-to-Many",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "In a hospital system, the relationship between a consultant and a patient would be": {
+        "options": [
+            "One-to-Many",
+            "One-to-One",
+            "Many-to-One",
+            "Many-to-Many"
+        ],
+        "feedback": "One consultant can have many patients, but often one patient does not have many consultants.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "In a hospital system, the relationship between a nurse to a word would be": {
+        "options": [
+            "Many-to-One",
+            "One-to-Many",
+            "One-to-One",
+            "Many-to-Many"
+        ],
+        "feedback": "Many nurses can be assigned to one ward, but a nurse must stay to their assigned ward, a nurse cannot belong to different wards.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "A primary key is...": {
+        "options": [
+            "A unique identifier for each record",
+            "An identifier which can be shared between multiple records",
+            "The first number in the record",
+            "A way of looking up data in related tables"
+        ],
+        "feedback": "",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "A foreign key is...": {
+        "options": [
+            "A unique identifier which links a record to a related record in another table",
+            "A unique identifier for each record in a table",
+            "A shared identifier for all records in one table",
+            "The name of a certain table"
+        ],
+        "feedback": "",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What is the purpose of the wildcard '%' in SELECT * FROM Table WHERE ID like '1%'": {
+        "options": [
+            "Extract data where ID ends with 1",
+            "Extract data where ID starts with 1",
+            "Extract data where ID has a 1",
+            "Extract data where ID has no 1s"
+        ],
+        "feedback": "",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Which of these is NOT TRUE for a database to be in 1NF (First Normal Form)": {
+        "options": [
+            "There is no repetition",
+            "Each entity has a unique identifier",
+            "Each attribute is atomic (divided as small as possible)",
+            "Each attribute has a single value"
+        ],
+        "feedback": "In first normal form there must be no attribute that contains more than a single value.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What is TRUE for a database in 2NF (Second Normal Form)": {
+        "options": [
+            "All attributes depend on the primary key",
+            "There is no dependence",
+            "There is no repetition",
+            "There are no transitive relationships"
+        ],
+        "feedback": "A database which doesn't have any partial dependencies and is in first normal form can be said to be in second normal form. This means that no attributes can depend on part of a composite key, they have to depend on both.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What is TRUE for a database in 3NF (Third Normal Form)": {
+        "options": [
+            "There are no transitive (non-key) relationships",
+            "There are at least 4 tables in the database",
+            "There is no dependence",
+            "All attributes have a separate table"
+        ],
+        "feedback": "If the database is in 2NF and contains no non-key (transitive) dependencies, it is in third normal form. A non-key dependency means the attribute only depends on the value of the primary key and nothing else.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "A network is a collection of <missing word> computers": {
+        "options": [
+            "connected",
+            "virtual",
+            "broken",
+            "individual"
+        ],
+        "feedback": "",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Which of the following is TRUE of networks": {
+        "options": [
+            "Greater bandwidth can lead to a faster network",
+            "Wireless networks tend to be faster than wired",
+            "Wired networks are less reliable than wireless",
+            "Less bandwidth can lead to a faster network"
+        ],
+        "feedback": "The network bandwidth is how much data can be transferred over a network in a given time. Thus, the greater the bandwidth, the faster/more data can be sent over a network. The bandwidth is shared between all active users, so performance can decrease if there are too many users. \\n \\n Wireless networks are also less reliable than wired networks. Wired networks have a direct connection to the router or switch, whereas wireless networks are prone to obstruction such as walls and become slower the further you are from the switch/router.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What is a disadvantage of a Client-Server model": {
+        "options": [
+            "Single point of failure",
+            "Server performs can automate tasks so the clients don't have to",
+            "Server is responsible for the security of data",
+            "Automatic back ups are performed by the server to keep data up to date"
+        ],
+        "feedback": "Client-server networks consist of terminals known as clients connected to a server. The server is a powerful, central computer. It holds all of the important information and resources and has greater processing power than the terminals. \\n \\n Advantages: \\n - More secure as data is stored in a central location \\n - Central backups are carried out so there is no need for individual backups \\n \\n Disadvantages: \\n - Relatively expensive to set up. \\n - If the server fails, the clients will no longer function coherently \\n - Trained staff are required to maintain the server.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What is an advantage of a peer-to-peer model": {
+        "options": [
+            "Cheap to set up",
+            "Impossible to trace the origin of files",
+            "Peers individually backup their data",
+            "Peers individually secure their data"
+        ],
+        "feedback": "A peer-to-peer network is where computers (peers) are connected to each other so that they can share files. Each device effectively acts as both a server and client, as it can both provide and request resources. Each peer is equally as important as every other peer. \\n \\n Advantages: \\n - Cheaper to set up \\n - Allows users to share resources \\n - Easy to Maintain and add new peers \\n - Not dependent on central server \\n \\n Disadvantages: \\n - Impossible to trace the origin of files (allows for piracy) \\n - Backups must be performed separately \\n - Poorer security \\n - May be difficult to locate resources",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    }
+}

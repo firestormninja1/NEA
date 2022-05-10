@@ -1,0 +1,12 @@
+{
+    "obstacle": "0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 22 23",
+    "decoration": "21 28",
+    "kill_block": "26 27",
+    "coin": "",
+    "player": "24",
+    "portal": "30",
+    "enemy": "25",
+    "enemy_scale": [168, 92],
+    "player_scale": [50, 83],
+    "move_radii": [3, 1, 2, 2, 0, 2, 0, 0, 1, 0, 1, 1]
+}

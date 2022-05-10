@@ -1,1 +1,402 @@
-{}
+{
+    "What data type is x if [x = 8]": {
+        "options": [
+            "integer",
+            "float",
+            "string",
+            "character"
+        ],
+        "feedback": "An integer is a whole number. Integers include 0, negative and positive numbers, they just can't have a fractional part. Integers are useful for counting things.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What data type is x if [x = 'hello world']": {
+        "options": [
+            "string",
+            "character",
+            "integer",
+            "float"
+        ],
+        "feedback": "A string is a collection of characters. While a string can be used to store a single character, they can also be used to store many characters in succession. Strings are useful for storing text",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What data type is x if [x = 'h']": {
+        "options": [
+            "character",
+            "string",
+            "boolean",
+            "float"
+        ],
+        "feedback": "A character is a single symbol used by a computer. These include the letters A to Z, numbers 0 to 0 and hundreds of other symbols.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What data type is x if [x = True]": {
+        "options": [
+            "boolean",
+            "integer",
+            "string",
+            "float"
+        ],
+        "feedback": "Values taken by a Boolean data type are restricted to True and False. Booleans are useful for recording data that can only take two values, like the state of a power button or whether a line of code has been executed.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What is data type is x if [x = 8.0]": {
+        "options": [
+            "float",
+            "string",
+            "integer",
+            "boolean"
+        ],
+        "feedback": "Floats/floating point/ real numbers are positive or negative numbers which can. but do not necessarily, have a fractional part. Real numbers are useful for measruing things.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What is the denary value of the unsigned binary 01101101": {
+        "options": [
+            "109",
+            "69",
+            "-2",
+            "420"
+        ],
+        "feedback": "",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What is the result of adding 1011 and 1110": {
+        "options": [
+            "11001",
+            "10011",
+            "10101",
+            "1111"
+        ],
+        "feedback": "",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What is the denary value of two's complement binary 1001": {
+        "options": [
+            "-7",
+            "7",
+            "2",
+            "-2"
+        ],
+        "feedback": "the left most bit in twos complement is negative. \\n Therefore two's complement 1001 == (-8*1) + (4*0) + (2*0) + (1*1) == -8 + 1 == -7",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What is the denary value of hexadecimal 2D3": {
+        "options": [
+            "723",
+            "700",
+            "3",
+            "-200"
+        ],
+        "feedback": "Remembering that E represents 14 in decimal and that F represents 15, we have: \\n 2D3 == (2 * (16^2) ) + (13 * (16^1) )+(3 * (16^0) == 723",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What is the denary value 109 in unsigned binary. (normal binary)": {
+        "options": [
+            "1101101",
+            "1101100",
+            "1100001",
+            "0111001"
+        ],
+        "feedback": "",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What is the denary value of the unsigned floating point (mantissa: 110011001) and (exponent: 0101) ": {
+        "options": [
+            "50.25",
+            "50.5",
+            "51.625",
+            "48.2"
+        ],
+        "feedback": "",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What is the denary value of the signed floating point (mantissa: 0101100) and (exponent: 11011)": {
+        "options": [
+            "0.0859375 (11/128)",
+            "0.1171875 (15/128",
+            "0.109375 (7/64)",
+            "0.1642857143 (69/420)"
+        ],
+        "feedback": "",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What is the result of 1011 AND 1011": {
+        "options": [
+            "1011",
+            "1101",
+            "0000",
+            "1111"
+        ],
+        "feedback": "",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What is the result of 10110 XOR 11011": {
+        "options": [
+            "01101",
+            "01110",
+            "00000",
+            "110111"
+        ],
+        "feedback": "",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Fill in the blank: Special characters (eg. <missing word> ) are also included in a character set.": {
+        "options": [
+            "new line",
+            "symbols",
+            "letters",
+            "numbers"
+        ],
+        "feedback": "A character set is a collection of all the characters that a computer recognises, along with their binary codes.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What is included in ASCII": {
+        "options": [
+            "All commonly used letters and symbols in English",
+            "All commonly used letters and symbols in European languages",
+            "All commonly used letters and symbols in all languages",
+            "Old and lost symbols used by ancient civilisations"
+        ],
+        "feedback": "ASCII includes all commonly used letters and symbols in the English language. Each character in ASCII is represented by a seven-bit binary code. That means there is a maximum of 128 characters. \\n \\n Each letter is represented by seven bits. This is useful because when used in an 8-bit system, the extra bit can be used as a check digit. \\n \\n 128 characters is perfectly fine for the English language. But it does not leave space for characters from other languages. \\n An extended ASCII set was released which used all eight bits, but it was still not enough. \\n This led to the release of Unicode.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Why are the first 256 characters in Unicode identical to extended ASCII": {
+        "options": [
+            "For backwards compatibility",
+            "It was a coincidence",
+            "It was an easy place to start building the character set from",
+            "It was a mistake which turned into a feature"
+        ],
+        "feedback": "Unicode aims to represent every possible character in the world. \\n The most common form of Unicode is UTF-8, and uses between eight and 48 bit binary codes to represent each character. \\n \\n  Unicode represents characters from all major alphabets of the world. \\n Unicode is also used to represent emojis!",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What is an array": {
+        "options": [
+            "A data structure that only holds one type of data type/object",
+            "A sized data structure that can hold multiple data types/objects",
+            "A data structure that only holds integers",
+            "A data structure that only holds strings."
+        ],
+        "feedback": "An array is an ordered, finite set of elements of a single type. Arrays are always taken as zero-indexed, unless stated otherwise. \\n \\n Lists are data structures that consist of a number of ordered items where the items can occur more than once. Items in lists can be stored non-contiguously and can be of more than one data type, which is not possible in an array.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Which of these data structures is immutable": {
+        "options": [
+            "Tuple",
+            "List",
+            "Array",
+            "Dictionary / Hash-map"
+        ],
+        "feedback": "An immutable data structure cannot have its values changed after instantiated. It's like Read Only Memory. Once instantiated, the data within them can only be read but not modified.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "This data structure uses pointers to point to the next and previous nodes": {
+        "options": [
+            "Linked list",
+            "Array",
+            "List",
+            "Graph"
+        ],
+        "feedback": "Array's and lists use indexes to hold the position of elements. Graphs are only theoretical models which aren't actual programming data structures. \\n \\n Linked Lists are a dynamic data structure used to hold an ordered sequence. Items do not have to be in contiguous data locations. Each item is called a node, and contains a data field alongside a link or pointer field.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    }
+}

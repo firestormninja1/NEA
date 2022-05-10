@@ -1,6 +1,9 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0">
     <option name="myName" value="Project Default" />
+    <inspection_tool class="PyChainedComparisonsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoreConstantInTheMiddle" value="true" />
+    </inspection_tool>
     <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
       <option name="ignoredErrors">
         <list>
@@ -13,6 +16,10 @@
           <option value="E401" />
           <option value="E225" />
           <option value="E302" />
+          <option value="E261" />
+          <option value="E501" />
+          <option value="E731" />
+          <option value="E114" />
         </list>
       </option>
     </inspection_tool>
@@ -20,6 +27,22 @@
       <option name="ignoredErrors">
         <list>
           <option value="N806" />
+          <option value="N813" />
+          <option value="N802" />
+        </list>
+      </option>
+      <option name="ignoredBaseClasses">
+        <list>
+          <option value="unittest.TestCase" />
+          <option value="unittest.case.TestCase" />
+          <option value="entity_class.Enemy" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
         </list>
       </option>
     </inspection_tool>
@@ -27,6 +50,11 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="Game.boxes.canvas" />
+          <option value="dict.set_default" />
+          <option value="object.collidepoint" />
+          <option value="object.topleft" />
+          <option value="pseudocode.*" />
+          <option value="pseudocode.enumearte" />
         </list>
       </option>
     </inspection_tool>

@@ -1,0 +1,422 @@
+{
+    "What algorithm could be used to find the shortest path in a maze": {
+        "options": [
+            "Breadth-first search",
+            "Linear search",
+            "Depth-first search",
+            "Binary search"
+        ],
+        "feedback": "Breadth-first search is an algorithm for searching a tree data structure for a node that satisfies a given property. In this case, the property would be something similar to a finishing node. Linear and Binary search wouldn't be useful because it's hard to find paths using those search algorithms, and Depth First algorithm will output or search the contents of a binary tree in a specified order. Hence, BFS is the most suitable algorithm ",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Which of the following is not an abstraction technique": {
+        "options": [
+            "Automation",
+            "Decomposition",
+            "Generalisation",
+            "Information hiding"
+        ],
+        "feedback": "Abstraction is the act of removing excessive details to arrive at a representation of a problem that consists of only the key features. Abstraction often involves analysing what is relevant to a given scenario and simplifying a problem based on this information. This is representational abstraction. \\n \\n Another form of abstraction involves grouping together similarities within a problem to identify what kind of problem it is. This is called abstraction by generalisation and allows certain problems to be categorised as being of a particular type. Thus a common solution can be used to solve these problems ",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Which of these is a function that can be performed on a stack": {
+        "options": [
+            "Push",
+            "Remove",
+            "Append",
+            "Delete"
+        ],
+        "feedback": "The three main functions on a stack are: \\n Push: adding elements onto a stack \\n Pop: retrieve the item at the top of the stack \\n Seek: See what the contents at the top of the stack are.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Why is money an example of abstraction": {
+        "options": [
+            "It represents the value of goods and services",
+            "It's easy to carry around",
+            "It shows basic information about economics",
+            "Everyone knows about it"
+        ],
+        "feedback": "Money is an abstract concept. \\n Money has no real value (it's just a piece of paper!), but it its trusted to represent the value of goods and services by the whole world.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "<missing word> charts are used to visually represent breaking a large problem down into the smaller parts that make it up. Which is the most suitable out of these to fill in the missing word?": {
+        "options": [
+            "Structure",
+            "Bar",
+            "Flow",
+            "Gnatt"
+        ],
+        "feedback": "Structure charts are used to visually represent breaking a large problem down into the smaller parts that make it up. \\n Each box represents a smaller problem to be solved. \\n Lines show which bigger problem the box is a part of.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [1, 0, 1.0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What does each box represent on a decomposition structure chart": {
+        "options": [
+            "A sub-problem",
+            "An employee",
+            "A process",
+            "A frame"
+        ],
+        "feedback": "Decomposition means breaking a complex problem into smaller, more manageable sub-problems.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Which of these is the main focus of pseudocode": {
+        "options": [
+            "Logic of an algorithm",
+            "Syntax of the language",
+            "Specific API calls",
+            "Descriptive variable names and comments"
+        ],
+        "feedback": "Pseudocode is a way to write out algorithms using code-like statements. \\n It is intended to be very readable, and easy to understand. \\n \\n Pseudocode is not an actual programming language. \\n Pseudocode is used to plan algorithms, focusing on the logic and steps rather than language-specific syntax.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What does an oval represent in a flow diagram": {
+        "options": [
+            "Start or end of a program",
+            "A decision",
+            "A process",
+            "Input or Output"
+        ],
+        "feedback": "",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "How can pseudocode be run on a computer": {
+        "options": [
+            "It cannot be run",
+            "It can already be run",
+            "By assembling it",
+            "By compiling it"
+        ],
+        "feedback": "Pseudocode is not an actual programming language. \\n Pseudocode is used to plan algorithms, focusing on the logic and steps rather than language-specific syntax.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [1, 0, 1.0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What shape in a flow diagram represents Input or Output": {
+        "options": [
+            "Parallelogram",
+            "Rectangle",
+            "Oval",
+            "Diamond"
+        ],
+        "feedback": "",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What shape in a flow diagram represents a Process": {
+        "options": [
+            "Rectangle",
+            "Parallelogram",
+            "Oval",
+            "Diamond"
+        ],
+        "feedback": "",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [1, 0, 1.0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What shape in a flow diagram represents a Decision": {
+        "options": [
+            "Diamond",
+            "Rectangle",
+            "Oval",
+            "Parallelogram"
+        ],
+        "feedback": "",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What is an identifier": {
+        "options": [
+            "A name for a location in memory",
+            "The value of a constant",
+            "The value of a variable",
+            "A section of memory"
+        ],
+        "feedback": "To make life easier for programmers, we can give a memory location a symbolic name called an identifier. \\n The identifier is a word which describes what we will store in that memory location. \\n A variable is any part of the memory that we have named, and that we can change the value of while the program is running. \\n \\n A constant is a named location in memory that can be used to store a value which does not change while the program is run.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "How do you start a comment in a C-style language (C++, C#, C etc.)": {
+        "options": [
+            "//",
+            "--",
+            "||",
+            "*/"
+        ],
+        "feedback": "",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "The input() method takes data from what device": {
+        "options": [
+            "The keyboard",
+            "The mouse",
+            "The camera",
+            "The microphone"
+        ],
+        "feedback": "Whilst all of the options are methods of input, in a plain program with little external modules, the keyboard is the main form of input when the input() method is invoked. \\n \\n Using external libraries and modules can allow the mouse, microphone and other peripherals to be accepted as valid inputs.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [2, 0, 1.0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What is the purpose of this algorithm: \\n X = input('Enter your name: ') \\n print(X)": {
+        "options": [
+            "Store the user's name and output the value inputted",
+            "Store the user's name",
+            "output the user's name",
+            "calculate the definite integral under a specified curve stored in the variable X"
+        ],
+        "feedback": "",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "How do you start a comment in Python?": {
+        "options": [
+            "#",
+            "< >",
+            "/*",
+            "//"
+        ],
+        "feedback": "",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What is the main difference between a procedure and a function": {
+        "options": [
+            "A function returns a value whereas a procedure does not",
+            "A procedure only handles strings, whereas a function can handle anything",
+            "A procedure can utilise recursion whereas a function cannot",
+            "The spelling"
+        ],
+        "feedback": "A function returns a value whereas a procedure does not. \\n Because of this, functions can utilise recursions unlike procedures which would just cause a stack overflow error if calling a procedure within a procedure is attempted.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What is global scope": {
+        "options": [
+            "When a variable can be accessed from any part of the program",
+            "When a variable can be accessed from one sub-routine only",
+            "When a variable can be accessed from any program",
+            "When a variable cannot be used inside of any sub-routines"
+        ],
+        "feedback": "global variables can be accessed from any part of the program. \\n \\n On the contrary, local variables only exist for the duration of a sub-routine and are then destroyed.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What are parameters": {
+        "options": [
+            "The value/s a sub-routine can take in",
+            "The value/s a function takes in",
+            "The value/s a procedure takes in",
+            "The values passed into a sub-routine"
+        ],
+        "feedback": "A parameter is the value that a sub-routine TAKES in, whilst an argument is what is PASSED into a sub-routine when it is invoked.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Which of these is not a feature of an Integrated Development Environment": {
+        "options": [
+            "Allow external hardware peripherals and the operating system to work in conjunction",
+            "Debugging tools",
+            "Code completion or code insight to auto-complete a language's keywords and function names",
+            "Syntax highlighting"
+        ],
+        "feedback": "The device drivers are responsible for allowing external hardware peripherals and the operating system to work in conjunction. \\n \\n An IDE's sole purpose is to aid in the development process of programs for programmers by facilitating the use of an extensive set of features.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    }
+}

@@ -1,30 +1,302 @@
 {
     "Which bus retrieves instructions and data from main memory?": {
-        "a":"Data",
-        "b":"Memory",
-        "c":"Control",
-        "d":"Retrieval",
-        "feedback": "The data bus retrieves data and instructions from main memory. The address bus sends addresses to main memory. The control bus sends read right signals to main memory."
+        "options": [
+            "Data",
+            "Memory",
+            "Control",
+            "Retrieval"
+        ],
+        "feedback": " - The data bus retrieves data and instructions from main memory. \\n \\n - The address bus sends addresses to main memory. \\n \\n - The control bus sends read right signals to main memory.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [2, 1, 0.6666666666666666],
+        "Testing12": [0, 0, 0],
+        "apatel6": [1, 2, 0.3333333333333333],
+        "Harsh12": [0, 0, 0],
+        "mpor": [1, 0, 1.0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
     },
     "What is the purpose of the Accumulator?": {
-        "a": "Holds the result of calculations and operations performed by the arithmetic and logic unit.",
-        "b": "Holds the data that has been retrieved from memory, or that is about to be stored in memory.",
-        "c": "Holds the address of the location in memory where data is to be retrieved or stored.",
-        "d": "Holds the memory location address of the next instruction to be performed by the central processing unit.",
-        "feedback": "The program counter holds the memory location address of the next instruction to be performed by the central processing unit.  Memory data register holds the data that has been retrieved from memory, or that is about to be stored in memory. Accumulator holds the result of calculations and operations performed by the arithmetic and logic unit."
-    },
-    "Which of the following are examples of Boolean operators": {
-        "a": "AND",
-        "b": "YES",
-        "c": "UP",
-        "d": "WHERE",
-        "feedback": "The basic boolean operators required for this specification are: OR, NOT, AND, XOR"
+        "options": [
+            "Holds the result of calculations and operations performed by the arithmetic and logic unit.",
+            "Holds the data that has been retrieved from memory, or that is about to be stored in memory.",
+            "Holds the address of the location in memory where data is to be retrieved or stored.",
+            "Holds the memory location address of the next instruction to be performed by the central processing unit."
+        ],
+        "feedback": " - The program counter holds the memory location address of the next instruction to be performed by the central processing unit.  \\n \\n - The Memory data register holds the data that has been retrieved from memory, or that is about to be stored in memory. \\n \\n - The Accumulator holds the result of calculations and operations performed by the arithmetic and logic unit. \\n \\n - The Memory Address Register holds the address of a location that is to be read from or written to. \\n \\n - The Current Instruction Register holds the current instruction being executed divided into opcode and operand.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [2, 2, 0.5],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 1, 0.0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
     },
     "Which of the following can be adjusted to improve the performance of a CPU?": {
-        "a": "Increase the number of cores",
-        "b": "Decrease the Cache",
-        "c": "Remove the OS",
-        "d": "Get a bigger motherboard",
-        "feedback": "Each core of a CPU can execute its own independent Fetch Decode Execute (FDE) cycle. A computer with multiple cores can complete more than one FDE cycle at any given time. However to fully utilise multiple cores, the program has be designed in a way that can adapt to this efficiently."
+        "options": [
+            "Increase the number of cores",
+            "Decrease the Cache",
+            "Remove the OS",
+            "Get a bigger motherboard"
+        ],
+        "feedback": " - Each core of a CPU can execute its own independent Fetch Decode Execute (FDE) cycle; increasing the number of cores can increase the amount of simultaneous FDE cycles executed to enhance processing power. \\n \\n - Another way to increase processing power is by increasing the clock speed. The clock speed is the time taken for one FDE cycle to complete, so by increasing this it results in more FDE cycles being completed per specified time frame. \\n \\n - Increasing the Cache memory is also another option to improve CPU performance. Cache memory is the CPU's onboard memory. Instructions fetched from main memory are copied to the cache so if required again, they can be accessed quicker. As cache fills up, unused instructions are replaced. ",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [1, 0, 1.0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 1, 0.0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Which two CPU registers will regularly store the same value?": {
+        "options": [
+            "Program Counter and Memory Address Register",
+            "Memory Address Register and Memory Data Register",
+            "Program Counter and Accumulator",
+            "Program Counter and Memory Data Register"
+        ],
+        "feedback": " - At the beginning of the FDE cycle, the contents of the Program Counter are copied into the Memory Address Register; at that point, they store the same information as each other.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [1, 1, 0.5],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 1, 0.0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Which of these components exists outside of the CPU?": {
+        "options": [
+            "Input/Output Devices",
+            "Arithmetic Logic Unit",
+            "Level 1 Cache Memory",
+            "Control Unit"
+        ],
+        "feedback": "While the CPU uses input and output devices, these aren't a part of the CPU itself",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [2, 1, 0.6666666666666666],
+        "Testing12": [0, 0, 0],
+        "apatel6": [2, 1, 0.6666666666666666],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 1, 0.0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 1, 0.0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Which of the following devices is an example of an embedded system?": {
+        "options": [
+            "Petrol Pump",
+            "Tablet Computer",
+            "Smartphone",
+            "Laptop"
+        ],
+        "feedback": "A petrol pump is an example of an embedded system because it contains a special purpose computer as a part of a larger mechanical system. A smartphone contains many embedded systems, but is not an embedded system itself as it doesn't have a specific purpose.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [3, 0, 1.0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 1, 0.0],
+        "Harsh12": [1, 0, 1.0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 1, 0.0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [1, 0, 1.0]
+    },
+    "How many blocks of memory are used in the Von Neumann architecture": {
+        "options": [
+            "1",
+            "3",
+            "5",
+            "2"
+        ],
+        "feedback": " - The Von Neumann system architecture has one Control Unit, one shared block of memory for data and instructions, and one set of parallel wires called busses which connect two or more components inside the CPU and to external components such as Main Memory. \\n \\n - The Harvard Architecture contains one control unit and two separate chunks of memory with their own sets of busses allowing for simultaneous communication between data and instructions. \\n \\n - Contemporary processors  use a combination of Harvard and Von Neumann architecture. Von Neumann is used when working with data and instructions in main memory, but uses Harvard architecture to divide the cache into instruction cache and data cache",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [1, 0, 1.0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [1, 0, 1.0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Which type of processor has a large instruction set built into it": {
+        "options": [
+            "CISC",
+            "DISC",
+            "RISC",
+            "BISC"
+        ],
+        "feedback": " - CISCs (Complex Instruction Set Computers) contain a large, and complex instruction sets where one line of code can represent several lines of machine code. This can make development much easier as it saves time coding and reduces files size however this does come at the cost of higher energy consumption and costs. \\n \\n - RISC (Reduced instruction set computers) have a reduced instruction set where one instruction translates to one machine code instruction which makes development harder, but uses up less power and are cheaper whilst also with being able to utilise pipelining because each instruction takes a single clock cycle.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [1, 0, 1.0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [1, 1, 0.5],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 1, 0.0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [1, 0, 1.0]
+    },
+    "Which of the following is True?": {
+        "options": [
+            "CISC processors are more expensive than RISC",
+            "CISC processors have less addressing modes than RISC",
+            "RISC processors have more instructions than CISC",
+            "Programmers have to write more code for CISC processors"
+        ],
+        "feedback": " - CISCs (Complex Instruction Set Computers) contain a large, and complex instruction sets where one line of code can represent several lines of machine code. This can make development much easier as it saves time coding and reduces files size however this does come at the cost of higher energy consumption and costs. \\n \\n - RISC (Reduced instruction set computers) have a reduced instruction set where one instruction translates to one machine code instruction which makes development harder, but uses up less power and are cheaper whilst also with being able to utilise pipelining because each instruction takes a single clock cycle.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [3, 0, 1.0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [1, 0, 1.0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 1, 0.0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [1, 0, 1.0]
+    },
+    "What is the fastest form of storage from these?": {
+        "options": [
+            "Solid State Drives",
+            "Hard Disk Drives",
+            "Blu-Rays",
+            "Virtual Memory"
+        ],
+        "feedback": "The order for speed goes: Flash -> magnetic -> Optical. In this case SSDs are the fastest, then HDDs, then Blu-Rays. Virtual Memory is regarded as a form of temporary RAM; this is because Virtual Memory is a small segment of secondary storage that is assigned to hold inactive running programs that are in RAM to free up space in the RAM. However constant use of virtual memory and switching back and forth from RAM to Hard Disk Drive can cause disk threshing.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 4, 0.0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 2, 0.0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [2, 0, 1.0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What are the two parts of a computer instruction?": {
+        "options": [
+            "opcode and operand",
+            "opcode and operator",
+            "opcode and opstate",
+            "opcommand and opmemory"
+        ],
+        "feedback": "opcode is the instruction and operand is the data on which the instruction is to be performed on. ",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [1, 2, 0.3333333333333333],
+        "Testing12": [0, 0, 0],
+        "apatel6": [1, 0, 1.0],
+        "Harsh12": [1, 0, 1.0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [1, 0, 1.0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What is the most suitable storage device for: A Travel Agent backing up 800GB of data with medium costs": {
+        "options": [
+            "Hard Disk Drives",
+            "Solid State Drives",
+            "CDs",
+            "Blu-Rays"
+        ],
+        "feedback": " - CDs/Blu-Rays: slow access times, not enough storage space and not durable/reliable enough for storing backup; not a suitable option. \\n \\n - Solid State Drives: fast access times, durable, can have high storage but can be very expensive; not a suitable option. \\n \\n - Hard Disk Drives: Medium access times, very high capacity, not too expensive, highly durable and reliable; most suitable option",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [4, 0, 1.0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [1, 0, 1.0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 1, 0.0]
+    },
+    "What is the name given to the areas on a CD's surface which have burned into grooves by a laser?": {
+        "options": [
+            "Pits",
+            "Lands",
+            "Trenches",
+            "Holes"
+        ],
+        "feedback": "Burnt areas are referred to as pits and unburnt areas are referred to as lands. pits represent 1s and lands represent 0s. Logically, a brand new CD would have no pits because the nothing has been written to it, meaning that it is 100% lands, therefore lands must correspond to a 0 to represent an unburnt area, and pits 1 to represent burnt areas.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [2, 3, 0.4],
+        "Testing12": [0, 0, 0],
+        "apatel6": [1, 1, 0.5],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "This form of memory is volatile": {
+        "options": [
+            "RAM",
+            "ROM",
+            "Optical Memory",
+            "Flash Memory"
+        ],
+        "feedback": "Volatile means losing data/contents once access to power is cut off. Optical and Flash Memory are secondary storage so they cannot be volatile because they are used to withhold information reliably. ROM is also not volatile because this holds the operating system information and other programs such as the bootstrap, so it wouldn't make sense for ROM to be volatile either as it holds highly important information. RAM is the volatile form of memory because it holds currently running which doesn't have to be stored permanently, so once power is cut off all contents of RAM will be erased.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [2, 0, 1.0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [1, 0, 1.0],
+        "Harsh123": [2, 0, 1.0],
+        "harsh21": [0, 0, 0]
+    },
+    "What is a disadvantage of Solid State Drives": {
+        "options": [
+            "High Cost",
+            "High transfer speeds",
+            "Lightweight",
+            "No moving parts"
+        ],
+        "feedback": "The main disadvantages of SSDs are that they are very expensive due to their complex circuitry, and that they have limited read/write cycles",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [1, 2, 0.3333333333333333],
+        "Testing12": [0, 0, 0],
+        "apatel6": [1, 0, 1.0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
     }
 }

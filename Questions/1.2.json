@@ -1,1 +1,402 @@
-{}
+{
+    "What is True about the operating system": {
+        "options": [
+            "The OS manages memory, storage, security, printing, and other useful functions of the system",
+            "The computer can only have one operating system",
+            "All operating systems allow the user to use multiple programs at once",
+            "All OSs only provide a command line interface"
+        ],
+        "feedback": "The operating system is a collection of programs that provide an interface between the user and the computer. Operating systems enable the user to communicate with the computer and perform tasks involving the management of computer memory and resources.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Which of these tasks is the operating system NOT responsible for performing": {
+        "options": [
+            "Coordinates communication between software applications and the CPU",
+            "Memory Management",
+            "File compressing",
+            "Resource management through scheduling"
+        ],
+        "feedback": "The motherboard allows communication to and between the CPU, RAM, and all other computer hardware components",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Which of these options matches the definition: \\n memory is split up into equal-sized sections known as pages. These can then be swapped between main memory and the hard disk as needed.": {
+        "options": [
+            "Paging",
+            "Segmenting",
+            "Distributed Processing",
+            "Splitting"
+        ],
+        "feedback": "- Paging is when memory is split up into equal-sized sections known as pages.. These can then be swapped between main memory and the hard disk as needed. \\n \\n - Segmentation is the splitting up of memory into logical sized divisions, known as segments, which vary in size. These represent the structure and logical flow of the program",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Using Virtual Memory too much can result in...": {
+        "options": [
+            "Disk Threshing",
+            "Increase in performance and processing power",
+            "More secondary storage",
+            "Infinite memory creation"
+        ],
+        "feedback": "Virtual memory uses a section of the hard drive to act as RAM when the space in main memory is insufficient to store programs being used. Sections of programs not currently being used are temporarily moved into virtual memory through paging, freeing up memory for other programs in RAM. \\n \\n The key issue with using these techniques is disk thrashing. This is when the computer \u00e2\u20ac\u02dcfreezes\u00e2\u20ac\u2122 due to pages being swapped too frequently between the hard disk and main memory. This issue becomes progressively worse as virtual memory is filled up.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Select the False statement about memory paging:": {
+        "options": [
+            "Unused pages are swapped out of main memory and put into Read Only Memory",
+            "Processes are split into equal sized frames",
+            "A page table is used to record all the pages",
+            "Unused pages are swapped out of main memory and put into virtual memory"
+        ],
+        "feedback": "Pages are stored the RAM but when required, the secondary storage can be used as virtual memory to temporarily hold pages. This is because pages have a fixed sizes unlike segments which enable running processes to be stored in secondary storage. \\n \\n ROM (Read Only Memory) contains the programming that allows a computer to start up or regenerate each time it is turned on. Its also Read only, so it wouldn't be feasible to store running programs in ROM either.'",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "The role of scheduling is...": {
+        "options": [
+            "To make sure that all tasks get time on the processor and respond in a reasonable time",
+            "To make sure tasks get as much time as they need on the CPU",
+            "To make sure that the user does not have to wait for processes to run",
+            "To prevent the user from crashing the computer"
+        ],
+        "feedback": "The operating system ensures all sections of programs being run (known as \u00e2\u20ac\u02dcjobs\u00e2\u20ac\u2122) receive a fair amount of processing time. This is done through various scheduling algorithms: \\n \\n Pre-emptive: Jobs are actively made to start and stop by the operating system eg. Multilevel Feedback Queues, Shortest Time Remaining, Round Robin \\n \\n Non pre-emptive: Once a job is started, it is left alone until it is completed eg. First Come First Serve, Shortest Job First",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What is the definition of Utility Software": {
+        "options": [
+            "Ensure the consistent, high performance of the operating system. Each utility program has a specific function linked to the maintenance of the operating system",
+            "Designed to be used by the end-user to perform one specific task. This software requires systems software in order to run",
+            "Low-level software responsible for managing the computer resources and maintaining consistently high performance",
+            "Converts high-level source code into low-level object code, which is then ready to be executed by a computer"
+        ],
+        "feedback": "- Application Software: Designed to be used by the end-user to perform one specific task. Application software requires systems software in order to run eg. desktop publishing, word processing, spreadsheets, web browsers \\n \\n - Systems Software: Low-level software responsible for managing the computer resources and maintaining consistently high performance eg. library programs, utility programs, operating system, device drivers \\n \\n - Utilities Software: Low-level software responsible for managing the computer resources and maintaining consistently high performance eg. library programs, utility programs, operating system, device drivers eg. Compression, HDD Defragmentation, Antivirus, Automatic Updating, Backup ",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What are the two method of linking external modules and libraries": {
+        "options": [
+            "Static and Dynamic",
+            "Static and Flowing",
+            "Solid and Robust",
+            "Dynamic and Fixed"
+        ],
+        "feedback": "Linkers are a piece of software responsible for linking external modules and libraries included within the code. \\n \\n Static linker: Modules and libraries are added directly into the main file. This increases the size of the file. \\n \\n Dynamic Linkers: Addresses of modules and libraries are included in the file. File size does not change and external module/library updates automatically feed through to the main file.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What is one advantage of an Interpreter over a Compiler": {
+        "options": [
+            "Source code doesn't have to be re-compiled after a change has been made",
+            "Interpreter is running in the background, translating code, during run time",
+            "Source code is visible when given to others",
+            "Code has to be translated every time it is run"
+        ],
+        "feedback": "Interpreters: \\n Translate and execute code line-by-line. They stop and produce an error if a line contains an error. Initially appear faster than compilers, but are slower than running compiled code as code must be interpreted each time it is executed. Code also requires the correct interpreter in  order to run on different devices. \\n Interpreters are useful for testing code, as time is not wasted compiling code with errors. Code is also platform-independent, making interpreted code more portable. \\n \\n Compiler: \\n Translate high-level code into machine code all at once. The initial compilation process is longer than using an interpreter or an assembler. \\n Compiled code is specific to a particular processor type and operating system but can be run without a translator present. \\n \\n Assemblers: \\n Translate assembly code into machine code. Each line of assembly code is equivalent to almost one line of machine code.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Which of these occurs during Lexical analysis": {
+        "options": [
+            "Whitespace and comments are removed from the code",
+            "Tokens from the symbol table are analysed against the rules of the programming language",
+            "An abstract syntax tree is produced",
+            "Searches through the code for areas it could be made more efficient to reduce execution time but is a very time-consuming of compilation."
+        ],
+        "feedback": "During Lexical Analysis, whitespace and comments are removed from the code. Keywords and names of variables and constants are replaced with tokens. Information about tokens is stored in a symbol table.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Which of these best defines open source software": {
+        "options": [
+            "Can be used by anyone without a license and is distributed with the source code.",
+            "Can only be used by people with an appropriate license ",
+            "Users cannot access or modify the source code",
+            "Designed to provide a general set of features that a broad range of customers will find useful"
+        ],
+        "feedback": "Open source software can be used by anyone without a license and is distributed with the source code. \\n \\n Advantages: \\n Can be modified and improved by anyone \\n Technical support from online community \\n Can be modified and sold on \\n \\n Disadvantages: \\n  Support available online may be insufficient or incorrect. No user manuals. \\n Lower security as may not be developed in a controlled environment",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "What is the purpose of Defragmentation": {
+        "options": [
+            "Optimising secondary storage's memory allocation",
+            "Optimising main memory's memory allocation",
+            "Routinely create copies of files",
+            "Decompress compressed files to lower bandwidth usage."
+        ],
+        "feedback": "Defragmentation: As the hard disk becomes full, read/write times slow down. This is because files can no longer be stored contiguously. The disk defragmenter utility rearranges the contents of the hard drive so they can be accessed faster. This reduces the amount of movement required by the read/write head thus increasing the durability of the Hard disk drive. Solid State Drives have little use for defragmentation as they don't require any moving parts to read memory.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "This form of Backup backs up only the changes made since the last backup": {
+        "options": [
+            "Incremental Backup",
+            "Full Backup",
+            "Static Backup",
+            "Rigid Backup"
+        ],
+        "feedback": "Incremental backup: This is when only the changes since the last backup are backed up. This reduces the amount of memory consumed but shouldn't be used for important information in case of a crash, in which case everything would need to have been backed up. \\n \\n Full Backup: Backs up everything regardless of what was changed or not changed thus offering complete security. However, this process is very time consuming and requires lage amount of disk space.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Device Drivers allow...": {
+        "options": [
+            "peripherals to communicate with the OS",
+            "allow users to communicate with the OS",
+            "allow peripherals to work directly with the CPU",
+            "allow users to change settings of their peripherals"
+        ],
+        "feedback": "Device drivers are computer programs which are provided by the operating system and allow the operating system to interact with hardware. \\n \\n When a piece of hardware is used, the device driver communicates this request to the operating system which can then produce the relevant output. \\n \\n Device drivers are specific to the computer\u00e2\u20ac\u2122s architecture, so different drivers must be used for different device types such as smartphones, games consoles and desktop PCs. Device drivers are also specific to the operating system installed on the device. ",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "A processor company who need to develop high-quality code with minimal errors should use...": {
+        "options": [
+            "Extreme Programming",
+            "Agile",
+            "Waterfall",
+            "Spiral"
+        ],
+        "feedback": "",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "This sequential development methodology heavily focuses on paperwork and documentation of the development": {
+        "options": [
+            "Waterfall",
+            "Agile",
+            "Spiral",
+            "Rapid Application Development"
+        ],
+        "feedback": "",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "A company who needs to manage a lot of risks should use": {
+        "options": [
+            "Spiral",
+            "Rapid Application Development",
+            "Extreme Programming",
+            "Waterfall"
+        ],
+        "feedback": "The spiral model is built on four key stages with the focus of effectively managing risk-heavy projects: \\n \\n - Analysing system requirements \\n - Pinpointing and mitigating risks \\n - Development, testing and implementation \\n - Evaluating to inform the next iteration If the project is found to be too risky at any point, the project is terminated. However hiring risk assessors to analyse the risks involved can be expensive, which makes this methodology suited to only very large-scale projects.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Most software companies use": {
+        "options": [
+            "Agile",
+            "Spiral",
+            "Waterfall",
+            "Extreme Programming"
+        ],
+        "feedback": "",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "A small start-up who want to get a prototype onto the market for testing should use:": {
+        "options": [
+            "Rapid Application Development",
+            "Waterfall",
+            "Spiral",
+            "Extreme Programming"
+        ],
+        "feedback": "RAD is an iterative methodology which uses partially functioning prototypes which are continually built-upon. User requirements are initially gathered using focus groups and used to develop an \u00e2\u20ac\u02dcincomplete\u00e2\u20ac\u2122 version of the solution which is given to the user to trial.  ser feedback is then used to generate the next, improved prototype and this continues until the prototype matches the requirements of the end-users at which point it becomes the final product. \\n \n This is commonly used where user requirements are incomplete or unclear at the start. However, as requirements change over the course of the project, additions and changes made to the code may be inefficient.",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    },
+    "Iterative development methodology which values the speed of development": {
+        "options": [
+            "Rapid Application Development",
+            "Waterfall",
+            "Spiral",
+            "Extreme Programming"
+        ],
+        "feedback": "",
+        "Testing1": [0, 0, 0],
+        "Harsh21": [0, 0, 0],
+        "Testing12": [0, 0, 0],
+        "apatel6": [0, 0, 0],
+        "Harsh12": [0, 0, 0],
+        "mpor": [0, 0, 0],
+        "aaaa": [0, 0, 0],
+        "efwef": [0, 0, 0],
+        "Harsh212": [0, 0, 0],
+        "Harsh123": [0, 0, 0],
+        "harsh21": [0, 0, 0]
+    }
+}

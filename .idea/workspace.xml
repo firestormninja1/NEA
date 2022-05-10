@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="04890d85-8abc-44ea-8f03-953bdc0c633d" name="Default Changelist" comment="minor changes to files.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Questions/1.1.json" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/1.1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Questions/1.2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/1.2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Questions/1.3.json" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/1.3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Questions/1.4.json" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/1.4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Questions/2.json" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boxes.py" beforeDir="false" afterPath="$PROJECT_DIR$/boxes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities.py" beforeDir="false" afterPath="$PROJECT_DIR$/entities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_level.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/points.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/points.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/1/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/1/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/1/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/1/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/1/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/1/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/1/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/1/18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/1/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/1/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/1/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/1/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/1/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/1/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/1/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/1/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/1/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/2/2.tmx" beforeDir="false" afterPath="$PROJECT_DIR$/level_config/2/2.tmx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/3.tmx" beforeDir="false" afterPath="$PROJECT_DIR$/level_config/3/3.tmx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/level_config/3/Tiles/0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/level_config/3/Tiles/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/level_config/3/Tiles/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/level_config/3/Tiles/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/level_config/3/Tiles/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/level_config/3/Tiles/13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/level_config/3/Tiles/14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/level_config/3/Tiles/15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/level_config/3/Tiles/16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/level_config/3/Tiles/17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/18.png" beforeDir="false" afterPath="$PROJECT_DIR$/level_config/3/Tiles/18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/level_config/3/Tiles/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/level_config/3/Tiles/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/level_config/3/Tiles/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/level_config/3/Tiles/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/level_config/3/Tiles/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/level_config/3/Tiles/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/level_config/3/Tiles/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/Tiles/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/level_config/3/Tiles/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/level_config/3/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/tile_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/level_config/3/tile_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/3/wasteland.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/5/5.tmx" beforeDir="false" afterPath="$PROJECT_DIR$/level_config/5/5.tmx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/5/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/level_config/5/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_config/5/tile_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/level_config/5/tile_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/levels/3/_1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/levels/3/_1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/levels/3/_2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/levels/3/_2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/levels/3/_3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/levels/3/_3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/levels/5/_1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/levels/5/_1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/levels/5/_2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/levels/5/_2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/levels/5/_3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/levels/5/_3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/question_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/users.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="27FOSo4wvbAG7xABEmQfWnn8uv4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Harsh\Desktop\1.MAIN_NEA\images" />
+      <recent name="C:\Users\Harsh\Desktop\1.MAIN_NEA\levels\level2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.menu">
+    <configuration name="QuestionWindow" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="1.Main NEA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Harsh\AppData\Local\Programs\Python\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QuestionWindow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="1.Main NEA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Harsh\AppData\Local\Programs\Python\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="menu" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="1.Main NEA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Harsh\AppData\Local\Programs\Python\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/menu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testingggg" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="1.Main NEA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Harsh\AppData\Local\Programs\Python\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testingggg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.menu" />
+      <item itemvalue="Python.QuestionWindow" />
+      <item itemvalue="Python.testingggg" />
+      <item itemvalue="Python.main" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04890d85-8abc-44ea-8f03-953bdc0c633d" name="Default Changelist" comment="" />
+      <created>1648912376801</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648912376801</updated>
+    </task>
+    <task id="LOCAL-00001" summary="minor changes to files.">
+      <created>1650836518059</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650836518059</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="minor changes to files." />
+    <option name="LAST_COMMIT_MESSAGE" value="minor changes to files." />
+  </component>
+</project>
